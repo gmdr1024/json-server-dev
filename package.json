@@ -3,7 +3,9 @@
   "version": "0.0.1",
   "description": "foo",
   "scripts": {
-    "test": "echo test"
+    "merge:js": "node merger.js",
+    "serve": "node server.js",
+    "start": "run-s merge:js serve"
   },
   "repository": {
     "type": "git",
