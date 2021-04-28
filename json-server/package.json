@@ -1,22 +1,12 @@
 {
   "name": "foo",
   "version": "0.0.1",
-  "description": "foo",
+  "private": true,
   "scripts": {
     "merge:js": "node merger.js",
     "serve": "node server.js",
     "start": "run-s merge:js serve"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://example.com/user_name/repository_name.git"
-  },
-  "author": "user_name (https://example.com/user_name)",
-  "license": "UNLICENSED",
-  "bugs": {
-    "url": "https://example.com/user_name/repository_name/issues"
-  },
-  "homepage": "https://example.com/user_name/repository_name#readme",
   "devDependencies": {
     "json-merger": "^1.1.5",
     "json-server": "^0.16.3",
