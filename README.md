@@ -30,6 +30,9 @@ Json-server dev
 ### Add routing
 - Add routing to `server.js` ([Express.js syntax](https://expressjs.com/en/guide/routing.html))
 
+## Re-use
+Copy code in `json-server`
+
 ## Author
 [gmdr1024](https://github.com/gmdr1024)
 
