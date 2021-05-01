@@ -6,7 +6,8 @@ Json-server dev
 
 ## Feature
 - Wrap [json-server](https://www.npmjs.com/package/json-server) with `npm-scripts`
-- Auto-merge json files of data with [json-merger](https://www.npmjs.com/package/json-merger)
+- Templating of data json files with [dummy-json](https://www.npmjs.com/package/dummy-json)
+- Auto-merge data objects with [json-merger](https://www.npmjs.com/package/json-merger)
 
 ## Requirement
 - Node.js 14.16.x
@@ -22,10 +23,11 @@ Json-server dev
 ## Usage
 
 ### Start a local server
-- `npm start`
+- `npm start` under `json-server`
 
-### Add json
-- Add `~~.json` file to `db`
+### Add data files
+- Add `~~.hbs` file to `db`
+  - [dummy-json syntax](https://github.com/webroo/dummy-json#built-in-helpers)
 
 ### Add routing
 - Add routing to `server.js` ([Express.js syntax](https://expressjs.com/en/guide/routing.html))
